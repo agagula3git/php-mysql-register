@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    background-image: url("../images/pexels-craig-adderley-1563356.jpg");
+    background-size: 100% 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.signUp{
+    width: 500px;
+    background-color: rgba(8, 8, 34, 0.795);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    font-size: 14pt;
+    font-weight: bolder;
+    color: #fff;
+    height: 2em;
+    text-align: center;
+    background-color: #aaa;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(1, 1, 17, 0.747);
+}
+
+.inputEl{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="password"]{
+    width: 450px;
+    color: #000;
+    padding-left: 25px;
+    height: 30px;
+    border: 1px solid #aaa;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.inputEl i{
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    color: green;
+}
+
+button.logIn{
+    width: 450px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    height: 50px;
+    background-color: rgba(27, 124, 14, 0.795);
+    font-size: 14pt;
+    font-weight: bolder;
+    color: #fff;
+}
+
+input::placeholder{
+    font-size: 10pt;
+}
+
+.error-text{
+    font-family: 'Abel';
+    font-size: 10pt;
+    color: #ff0011
+}
+
+.f1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.f1-i{
+    margin-left: 25px;
+}
+
+.f1-i > label{
+    font-family: 'Abel';
+    font-size: 12pt;
+    color: #fff;
+}
+
+.f1 > a{
+    margin-right: 25px;
+    font-size: 12pt;
+}
+
+.f2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-top: 10px;*/
+    width: 100%;
+    font-size: 10pt;
+    height: 2.5em;
+    background-color: rgba(1, 1, 17, 0.747);
+    color: #fff;
+}
+
+.f2 > span{
+    font-family: 'Abel';
+    margin-left: 25px;
+    font-size: 12pt;
+}
+
+button.signUpBtn{
+    margin-right: 25px;
+    background-color: rgba(27, 124, 14, 0.795);
+    color: #fff;
+}

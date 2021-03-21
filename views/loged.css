@@ -1,0 +1,36 @@
+body{
+    background-image: url("../images/pexels-krivec-ales-547114.jpg");
+    background-size: 100% 100vh;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logOutBtn{
+    background-color: rgba(212, 3, 3, 0.795);
+    color: #fff;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 2em;
+    width: 100px;
+    top: 20px;
+}
+
+.logOutBtn:hover{
+    opacity: 0.6;
+    background-color: rgba(255, 0, 0, 0.938);
+}
+
+.user-avatar{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-avatar > i{
+    margin-left: 10px;
+    color: green;
+}
+

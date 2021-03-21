@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    background-image: url("../images/pexels-craig-adderley-1563356.jpg");
+    background-size: 100% 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.signUp{
+    width: 500px;
+    background-color: rgba(8, 8, 34, 0.795);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    font-size: 14pt;
+    font-weight: bolder;
+    color: #fff;
+    height: 2em;
+    text-align: center;
+    background-color: #aaa;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(1, 1, 17, 0.747);
+}
+
+.form > label{
+    margin-left: 25px;
+    font-family: 'Abel';
+    font-size: 12pt;
+    color: #fff;
+}
+.inputEl{
+    position: relative;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"]{
+    width: 450px;
+    color: #000;
+    padding-left: 25px;
+    border: 1px solid #aaa;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.inputEl i{
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    color: green;
+}
+
+button{
+    width: 450px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    height: 50px;
+    background-color: rgba(27, 124, 14, 0.795);
+    font-size: 14pt;
+    font-weight: bolder;
+    color: #fff;
+}
+
+input::placeholder{
+    font-size: 10pt;
+}
+
+.error-text{
+    font-family: 'Abel';
+    font-size: 10pt;
+    color: #ff0011
+}
