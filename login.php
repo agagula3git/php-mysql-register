@@ -1,5 +1,5 @@
 <?php
-session_start();
+/*session_start();*/
 
 $lowercase = "#[a-z]+#";
 $uppercase= "#[A-Z]+#";
@@ -7,6 +7,7 @@ $number = "#[0-9]+#";
 $specialChars = "#[^a-zA-Z0-9]+#";
 $errEmail = "";
 $errPassword = "";
+$_SESSION['email'] = "";
 
 if(isset($_POST['logIn'])){
     /*$logged = false;*/
@@ -42,8 +43,10 @@ if(isset($_POST['logIn'])){
             if($rows):
                 while($row = mysqli_fetch_row($result)):
                 $_SESSION['username'] = $row[0];
+                $_SESSION['email'] = $row[1];
                 endwhile;
-                header('LOCATION: loged.php');
+                mysqli_close($link);
+                header('LOCATION: userPage.php');
             endif;
         endif;
     endif;

@@ -31,22 +31,18 @@ body{
     background-color: rgba(1, 1, 17, 0.747);
 }
 
-.form > label{
-    margin-left: 25px;
-    font-family: 'Abel';
-    font-size: 12pt;
-    color: #fff;
-}
 .inputEl{
     position: relative;
+    margin-top: 25px;
     margin-left: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 input[type="text"], input[type="password"]{
     width: 450px;
     color: #000;
     padding-left: 25px;
+    height: 30px;
     border: 1px solid #aaa;
     outline: none;
     transition: 0.3s;
@@ -59,16 +55,15 @@ input[type=text]:focus, input[type=password]:focus{
 
 .inputEl i{
     position: absolute;
-    top: 8px;
+    top: 9px;
     left: 5px;
     color: green;
 }
 
-button{
+button.logIn{
     width: 450px;
     margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     height: 50px;
     background-color: rgba(27, 124, 14, 0.795);
     font-size: 14pt;
@@ -84,4 +79,56 @@ input::placeholder{
     font-family: 'Abel';
     font-size: 10pt;
     color: #ff0011
+}
+
+.f1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.f1-i{
+    margin-left: 25px;
+}
+
+.f1-i > label{
+    font-family: 'Abel';
+    font-size: 12pt;
+    color: #fff;
+}
+
+.f1 > a{
+    margin-right: 25px;
+    font-size: 12pt;
+}
+
+.f2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-top: 10px;*/
+    width: 100%;
+    font-size: 10pt;
+    height: 2.5em;
+    background-color: rgba(1, 1, 17, 0.747);
+    color: #fff;
+}
+
+.f2 > span{
+    font-family: 'Abel';
+    margin-left: 25px;
+    font-size: 12pt;
+}
+
+button.signUpBtn{
+    margin-right: 25px;
+    background-color: rgba(27, 124, 14, 0.795);
+    color: #fff;
+}
+
+#success-message{
+   font-size: 16pt;
+   font-weight: bold;
+   color: #008000;
+   font-family: 'Abel';
 }
