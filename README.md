@@ -17,3 +17,14 @@ From the homepage, you can get to the registration or sign-up page by clicking o
 When you click on this button, you'll be redirected to the registration page. The layout of the registration page is given below: 
 
 <img src="images/signup_page.PNG" width="50%" height="50%">
+
+## Configuration instructions
+
+The first thing you'll need to do is set up your database. Create a database called userdb. In the registration database, add a table called users. The users table will take the following three fields.  
+
+* username - varchar(15)
+* email - varchar(30)
+* password - varchar(20)
+
+You can create this using a MySQL client like PHPMyAdmin. When you set up your database, you need to connect to it. To connect to the database, just type the following simple code:
+<!--To do these actions you'll need a free software tool written in PHP - phpMyAdmin.-->
