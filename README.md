@@ -26,5 +26,22 @@ The first thing you'll need to do is set up your database. Create a database cal
 * email - varchar(30)
 * password - varchar(20)
 
-You can create this using a MySQL client like PHPMyAdmin. When you set up your database, you need to connect to it. To connect to the database, just type the following simple code:
+You can create this using a MySQL client like PHPMyAdmin. When you set up your database, you need to connect to it. To connect to the database, use the following simple code:
+```bash
+$link = mysqli_connect("localhost", "root", "");
+mysqli_select_db($link, "userdb");  
+
+if(!$link):
+  if(!mysqli_select_db($link, "userdb")):
+     exit("Database <userdb> does not exist!");
+  else:
+     exit("Can't connect to local MySQL server!");
+  endif;
+endif;
+```
+For creating the connection is used the function mysqli_connect that takes the host name, username and password for the account that has the right of access to the database at MySQL server.
 <!--To do these actions you'll need a free software tool written in PHP - phpMyAdmin.-->
+
+If you have any worries or anything you need to clarify, contact me on this email [agagula3@etf.unsa.ba](mailto:agagula3@etf.unsa.ba) and help will come.  
+  
+Best regards
