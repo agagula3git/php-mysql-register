@@ -1,4 +1,4 @@
-# PHP - Complete registration system with the page accessible only to logged-in users
+# PHP - Complete user registration system using PHP and MySQL database
 A complete user registration system using PHP and MySQL database.
 
 ## General Info
