@@ -8,3 +8,8 @@ When trying to register an account, you need to enter the hashed password for se
 The layout of home page is given by the following image:  
 
 <img src="images/login_page.PNG" width="50%" height="50%">
+
+From the homepage, you can get to the registration or sign-up page by clicking on the sign up button.
+When you click on this button, you'll be redirected to the registration page. The layout of the registration page is given below: 
+
+<img src="images/signup_page.PNG" width="50%" height="50%">
