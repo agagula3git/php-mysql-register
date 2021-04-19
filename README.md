@@ -1,6 +1,10 @@
 # PHP - Complete user registration system using PHP and MySQL database
 A complete user registration system using PHP and MySQL database.
 
+## Requirements
+* phpMyAdmin v5.0.4
+* XAMPP Control Panel v3.2.4
+
 ## General Info
   
 By developing this interesting project I went through the complete process of creating a user registration system where users can create an account by providing username, email and password. If users that attempt to log in to the database provide the correct data, they'll be redirected to their own page with the personal data. That page is accessible only to logged-in users.  
