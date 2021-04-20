@@ -42,6 +42,8 @@ endif;
 For creating the connection is used the function mysqli_connect that takes the host name, username and password for the account that has the right of access to the database at MySQL server.
 <!--To do these actions you'll need a free software tool written in PHP - phpMyAdmin.-->
 
-If you have any worries or anything you need to clarify, contact me on this email [agagula3@etf.unsa.ba](mailto:agagula3@etf.unsa.ba) and help will come.  
+## 🙌 Contribution
+I hope that this project will help you to unlock new ideas and improve your skills. Should you need any further information, please do not hesitate to [contact](mailto:agagula3@etf.unsa.ba) me.  
   
-Best regards
+Best regards,  
+Ajdin G.
